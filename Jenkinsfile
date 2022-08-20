@@ -2,7 +2,7 @@ pipeline{
     agent any
    
     environment {
-        PATH = "$PATH:/usr/share/maven/bin"
+        PATH = "C:/Program Files/Maven/apache-maven-3.8.6"
     }
     stages{
         
@@ -33,7 +33,7 @@ pipeline{
                 
         stage('SonarQube') {
              steps{
-                     withSonarQubeEnv('SonarQube_9.5') { 
+                     withSonarQubeEnv('SonarQube_9.6') { 
                      sh "mvn sonar:sonar"
                      }
               }
