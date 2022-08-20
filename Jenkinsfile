@@ -10,7 +10,7 @@ pipeline{
         
         stage('SCM'){
             steps{
-                git 'https://github.com/soumenmaitra/dwa.git'
+                git 'https://github.com/saleem024/devsecops.git'
 
             }
          }        
