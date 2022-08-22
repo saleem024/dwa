@@ -7,8 +7,7 @@ pipeline{
     stages{
         
         
-        
-        /*stage('SCM'){
+        stage('SCM'){
             steps{
                 git 'https://github.com/saleem024/devsecops.git'
 
@@ -66,5 +65,5 @@ pipeline{
         
         
        
-    }*/
+    }
 }
