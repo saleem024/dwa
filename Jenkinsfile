@@ -22,7 +22,7 @@ pipeline{
          }
         
         
-        stage('Image Scan') {
+       /* stage('Image Scan') {
             steps {
                 // sh 'mkdir -p reports'
                 //sh 'trivy image sonarqube > /home/trivy/Report_PL.txt'
@@ -61,7 +61,7 @@ pipeline{
             steps{
                sh 'docker rm $(docker ps -a -f status=exited -q)'
             }
-        }
+        }*/
         
         
        
